@@ -11,153 +11,134 @@
 </head>
 <body class="bg-[#0F101E]">
     <!-- Inicia seccion nav -->
-     <nav class="flex justify-between items-center mt-[40px] text-center mx-[50px] text-white">
-        <!--Logo-->
+    <nav class="flex justify-between items-center py-6 px-4 lg:px-8 text-white">
         <div class="logo">
-            <img class="w-[6em] | lg:w-[8em]" src="img/logo.png" alt="Logo">
+            <img class="w-24 lg:w-32" src="img/logo.png" alt="Logo">
         </div>
-        <!--Menu-->
-        <div class="menu hidden | lg:flex lg:text-center">
-            <ul class="flex gap-[60px] text-white"> 
-                <li>
-                    <a href="#sw-factory" class="transition hover:text-[#0056D2]">SW Factory</a>
-                </li>
-                <li>
-                    <a href="#services" class="transition hover:text-[#0056D2]">Servicios</a>
-                </li>
-                <li>
-                    <a class="transition hover:text-[#0056D2]" href="https://softver.mx/logistics/">Productos</a>
-                </li>
+        <div class="hidden lg:flex lg:text-center">
+            <ul class="flex gap-12 text-white">
+                <li><a href="#sw-factory" class="transition hover:text-[#0056D2]">SW Factory</a></li>
+                <li><a href="#services" class="transition hover:text-[#0056D2]">Servicios</a></li>
+                <li><a href="https://softver.mx/logistics/" class="transition hover:text-[#0056D2]">Productos</a></li>
             </ul>
         </div>
-        <!--Botones-->
-        <div class="buttons flex gap-[20px] items-center text-center"> 
-            <button
-                id="log-in"
-                class="cursor-pointer px-[20px] py-[5px] text-[#0056D2] border border-[#0056D2] rounded-[5px] font-bold transition hover:bg-[#0056D2] hover:text-[#FFFFFF]">Log-in</button>
-            <button
-                id="contacto"
-                class="cursor-pointer transition hover:-translate-y-0 hover:scale-110 px-[20px] py-[5px] bg-[#0056D2] text-white rounded-[5px] font-bold">Contáctanos</button>
+        <div class="flex gap-4 items-center">
+            <button id="log-in" class="px-5 py-2 text-[#0056D2] border border-[#0056D2] rounded-md font-bold transition hover:bg-[#0056D2] hover:text-white">Log-in</button>
+            <button id="contacto" class="px-5 py-2 bg-[#0056D2] text-white rounded-md font-bold transition hover:scale-105">Contáctanos</button>
         </div>
-     </nav>
+    </nav>
     <!-- Termina seccion nav -->
 
     <!-- Inicia seccion banner -->
-     <div class="banner h-[90vh] flex flex-col items-center text-center ">
-        <!-- Contenido superior -->
-        <div class="top-content-container w-[100%] flex justify-center | lg:justify-end lg:mr-[95px]">
-            <div class="top-content flex gap-10 mt-10">
+    <div class="banner h-[90vh] flex flex-col items-center text-center px-4 | lg:text-left lg:items-end ">
+        <div class="top-content-container w-full lg:w-3/5 lg:mr-12">
+            <div class="top-content flex justify-end gap-10 mt-10 lg:mt-0">
                 <div class="hito">
-                    <h2 class="text-white text-[2em] | lg:text-[2.5em]">
+                    <h2 class="text-white text-3xl lg:text-4xl">
                         <b class="text-[#0056D2]">+</b>30
-                      </h2>
-                      <p class="text-[#A5A7B5] text-[.8em] | lg:text-[1em]">
+                    </h2>
+                    <p class="text-[#A5A7B5] text-sm lg:text-base">
                         EXITOSOS <br />
                         PROYECTOS
-                      </p>
+                    </p>
                 </div>
                 <div class="hito">
-                    <h2 class="text-white text-[2em] | lg:text-[2.5em]">
+                    <h2 class="text-white text-3xl lg:text-4xl">
                         <b class="text-[#0056D2]">+</b>30
-                      </h2>
-                      <p class="text-[#A5A7B5] text-[.8em] | lg:text-[1em]">
+                    </h2>
+                    <p class="text-[#A5A7B5] text-sm lg:text-base">
                         EXITOSOS <br />
                         PROYECTOS
-                      </p>
+                    </p>
                 </div>
                 <div class="hito">
-                    <h2 class="text-white text-[2em] | lg:text-[2.5em]">
+                    <h2 class="text-white text-3xl lg:text-4xl">
                         <b class="text-[#0056D2]">+</b>30
-                      </h2>
-                      <p class="text-[#A5A7B5] text-[.8em] | lg:text-[1em]">
+                    </h2>
+                    <p class="text-[#A5A7B5] text-sm lg:text-base">
                         EXITOSOS <br />
                         PROYECTOS
-                      </p>
+                    </p>
                 </div>
             </div>
         </div>
-        <!-- Contenido imagen -->
-        <div class="img-banner-container h-full w-full"></div>
-        <!-- Contenido inferior -->
-        <div class="bottom-content-container w-full h-full flex items-end justify-center | lg:justify-end">
-            <h2 class="text-white text-center text-[3em] | md:text-[4em] | lg:w-[60%] lg:mr-[50px] lg:text-end | xl:text-[5em] | 2xl:text-[6em] ">TRANSFORMAMOS TECNOLOGÍA EN VALOR</h2>
+        <div class="img-banner-container h-full w-full lg:w-2/5">
+            <div class="h-full"></div>
         </div>
-     </div>
+        <div class="bottom-content-container w-full lg:w-3/5 lg:mr-12">
+            <h2 class="text-white text-4xl md:text-5xl lg:text-right xl:text-6xl 2xl:text-7xl">
+                TRANSFORMAMOS TECNOLOGÍA EN VALOR
+            </h2>
+        </div>
+    </div>
     <!-- Termina seccion banner -->
 
     <!-- Inicia seccion SW Factory -->
     <div 
-        id="sw-factory"
-        class="sw-factory-container h-full mt-50 bg-gradient-to-b from-[#0F101E] to-black">
-        <!--Title seccion-->
-        <h3 class="text-start text-white text-[2em] ml-[50px] justify-start">SOFTWARE FACTORY<h3>
-        <p class="text-end text-white text-[1em] mr-[50px] justify-start mt-20"> 
-            Desarrollamos software con un equipo <br />
-            multidisciplinario y altamente capacitado
-        </p>
-        <!--Card Container-->
-        <div class="card-container h-full w-full flex flex-col items-center justify-center items-center mt-20 gap-10 | lg:flex-row lg:gap-5">
-            <!--Card 1-->
-            <div class="w-[350px] h-[400px] flex flex-col bg-[#0056D2] rounded-[10px] | lg:transition lg:w-[300px] lg:bg-[#D9D9D9] lg:hover:bg-[#0056D2] xl:w-[350px] group">
-                <div class="m-5 flex flex-col h-full">
-                    <div class="title-card flex-grow flex items-start justify-end">
-                        <h5 class="text-end text-[1em] text-white lg:text-black lg:text-[1.2em] group-hover:lg:text-white">
-                            <b>SISTEMAS WEB <br />
-                                Y ESCRITORIO</b>
-                        </h5>
-                    </div>
-                    <div class="img-card flex-grow flex items-center justify-center">
-                        <img src="" alt="" class="max-w-full max-h-full" />
-                    </div>
-                    <div class="content-card flex-grow flex items-end justify-start">
-                        <p class="text-start text-[.83em] text-white lg:text-black group-hover:lg:text-white">
-                            Creamos sistemas web y de escritorio con las tecnologías web más
-                            actuales.
-                        </p>
-                    </div>
+    id="sw-factory"
+    class="sw-factory-container py-20 bg-gradient-to-b from-[#0F101E] to-black">
+    <h3 class="text-white text-3xl ml-4 lg:ml-8">SOFTWARE FACTORY</h3>
+    <p class="text-white text-lg mt-8 mr-4 lg:mr-8 text-right"> 
+        Desarrollamos software con un equipo <br />
+        multidisciplinario y altamente capacitado
+    </p>
+    <div class="card-container mt-10 flex flex-col items-center gap-8 lg:flex-row lg:justify-center lg:gap-5">
+        <div class="w-80 h-96 bg-[#0056D2] rounded-lg lg:w-72 xl:w-80 group transition-colors duration-300 lg:bg-[#D9D9D9] lg:hover:bg-[#0056D2]">
+            <div class="p-5 flex flex-col h-full">
+                <div class="title-card flex-grow flex items-start justify-end">
+                    <h5 class="text-white lg:text-black lg:text-xl group-hover:lg:text-white">
+                        <b>SISTEMAS WEB <br />
+                        Y ESCRITORIO</b>
+                    </h5>
                 </div>
-            </div>
-            <!--Card 2-->
-            <div class="w-[350px] h-[400px] flex flex-col bg-[#0056D2] rounded-[10px] | lg:transition lg:w-[300px] lg:bg-[#D9D9D9] lg:hover:bg-[#0056D2] xl:w-[350px] group">
-                <div class="m-5 flex flex-col h-full">
-                    <div class="title-card flex-grow flex items-start justify-end">
-                        <h5 class="text-end text-[1em] text-white lg:text-black lg:text-[1.2em] group-hover:lg:text-white">
-                            <b>APPS <br />
-                                MÓVILES</b>
-                        </h5>
-                    </div>
-                    <div class="img-card flex-grow flex items-center justify-center">
-                        <img src="" alt="" class="max-w-full max-h-full" />
-                    </div>
-                    <div class="content-card flex-grow flex items-end justify-start">
-                        <p class="text-start text-[.83em] text-white lg:text-black group-hover:lg:text-white">
-                            Para el desarrollo de apps contamos con expertos en Android y iOS.
-                        </p>
-                    </div>
+                <div class="img-card flex-grow flex items-center justify-center">
+                    <img src="" alt="" class="max-w-full max-h-full" />
                 </div>
-            </div>
-            <!--Card 3-->
-            <div class="w-[350px] h-[400px] flex flex-col bg-[#0056D2] rounded-[10px] | lg:transition lg:w-[300px] lg:bg-[#D9D9D9] lg:hover:bg-[#0056D2] xl:w-[350px] group">
-                <div class="m-5 flex flex-col h-full">
-                    <div class="title-card flex-grow flex items-start justify-end">
-                        <h5 class="text-end text-[1em] text-white lg:text-black lg:text-[1.2em] group-hover:lg:text-white">
-                            <b>SITIOS <br />
-                                WEB</b>
-                        </h5>
-                    </div>
-                    <div class="img-card flex-grow flex items-center justify-center">
-                        <img src="" alt="" class="max-w-full max-h-full" />
-                    </div>
-                    <div class="content-card flex-grow flex items-end justify-start">
-                        <p class="text-start text-[.83em] text-white lg:text-black group-hover:lg:text-white">
-                            Creamos sitios web, e-commerce o blogs y sitios auto
-                            administrables.
-                        </p>
-                    </div>
+                <div class="content-card flex-grow flex items-end justify-start">
+                    <p class="text-white lg:text-black group-hover:lg:text-white">
+                        Creamos sistemas web y de escritorio con las tecnologías web más actuales.
+                    </p>
                 </div>
             </div>
         </div>
-    </div> 
+        <div class="w-80 h-96 bg-[#0056D2] rounded-lg lg:w-72 xl:w-80 group transition-colors duration-300 lg:bg-[#D9D9D9] lg:hover:bg-[#0056D2]">
+            <div class="p-5 flex flex-col h-full">
+                <div class="title-card flex-grow flex items-start justify-end">
+                    <h5 class="text-white lg:text-black lg:text-xl group-hover:lg:text-white">
+                        <b>APPS <br />
+                        MÓVILES</b>
+                    </h5>
+                </div>
+                <div class="img-card flex-grow flex items-center justify-center">
+                    <img src="" alt="" class="max-w-full max-h-full" />
+                </div>
+                <div class="content-card flex-grow flex items-end justify-start">
+                    <p class="text-white lg:text-black group-hover:lg:text-white">
+                        Para el desarrollo de apps contamos con expertos en Android y iOS.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-80 h-96 bg-[#0056D2] rounded-lg lg:w-72 xl:w-80 group transition-colors duration-300 lg:bg-[#D9D9D9] lg:hover:bg-[#0056D2]">
+            <div class="p-5 flex flex-col h-full">
+                <div class="title-card flex-grow flex items-start justify-end">
+                    <h5 class="text-white lg:text-black lg:text-xl group-hover:lg:text-white">
+                        <b>SITIOS <br />
+                        WEB</b>
+                    </h5>
+                </div>
+                <div class="img-card flex-grow flex items-center justify-center">
+                    <img src="" alt="" class="max-w-full max-h-full" />
+                </div>
+                <div class="content-card flex-grow flex items-end justify-start">
+                    <p class="text-white lg:text-black group-hover:lg:text-white">
+                        Creamos sitios web, e-commerce o blogs y sitios auto administrables.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- Termina seccion SW Factory -->
     
     <!-- Inicia seccion servicios -->
@@ -167,74 +148,51 @@
         <h3 class="flex justify-end items-center text-[2em] text-white mr-[50px]">SERVICIOS</h3>
         <p class="mt-5 mx-[50px] flex justify-start items-center text-[1.5em] text-[#A5A7B5]">Auditoría de TI</p>
         <!--grid container-->
-        <div class="grid-container flex justify-center items-center mt-10 mx-[50px]">
-            <div class="parent grid grid-cols-1 grid-rows-7 gap-10 | lg:grid-cols-3 lg:grid-rows-3 lg:gap-10 | xl:grid-cols-4 xl:grid-rows-2 xl:gap-10">
-                <!--Grid 1-->
-                <div class="div1 bg-[#0F101E] p-10 w-[350px] h-[300px] text-[#00A8E8] border-l-4 | lg:w-[300px] | xl-w-[280px]">
-                    <h6 class="text-[2em] | lg:text-[1.7em]">PLANES DE TRABAJO</h6>
-                    <br />
-                    <p class="text-[#A5A7B5] | lg:text-[.8em]">
-                        Diseñamos estrategias personalizadas para optimizar la gestión de
-                        tus proyectos y alcanzar tus objetivos de TI de manera eficiente.
+        <div class="grid-container flex justify-center items-center mt-10 px-4">
+            <div class="parent grid grid-cols-1 gap-8 lg:grid-cols-3 lg:grid-rows-2 xl:grid-cols-4 xl:grid-rows-1 xl:gap-8">
+                <div class="bg-[#0F101E] p-6 text-[#00A8E8] border-l-4">
+                    <h6 class="text-2xl lg:text-xl">PLANES DE TRABAJO</h6>
+                    <p class="text-[#A5A7B5] mt-4 lg:text-sm">
+                        Diseñamos estrategias personalizadas para optimizar la gestión de tus proyectos y alcanzar tus objetivos de TI de manera eficiente.
                     </p>
                 </div>
-                <!--Grid 2-->
-                    <div class="div1 bg-[#0F101E] p-10 w-[350px] h-[300px] text-[#FFC300] border-l-4 | lg:w-[300px] | xl-w-[280px]">
-                        <h6 class="text-[2em] | lg:text-[1.7em]">PROYECTOS INTERNOS</h6>
-                        <br />
-                        <p class="text-[#A5A7B5] | lg:text-[.8em]">
-                            Impulsamos el éxito de tu empresa con soluciones tecnológicas
-                            innovadoras, adaptadas a tus necesidades y alineadas a tus metas
-                            organizacionales.
-                        </p>
-                    </div>
-                <!--Grid 3-->
-                    <div class="div1 bg-[#0F101E] p-10 w-[350px] h-[300px] text-[#FF3D57] border-l-4 | lg:w-[300px] | xl-w-[280px]">
-                        <h6 class="text-[2em] | lg:text-[1.7em]">SEGURIDAD DE SERVICIOS</h6>
-                        <br />
-                        <p class="text-[#A5A7B5] | lg:text-[.8em]">
-                            Protegemos tu infraestructura digital con análisis y medidas
-                            proactivas que garantizan la continuidad y seguridad de tus
-                            servicios.
-                        </p>
-                    </div>
-                <!--Grid 4-->
-                    <div class="div1 bg-[#0F101E] p-10 w-[350px] h-[300px] text-[#00D084] border-l-4 | lg:w-[300px] | xl-w-[280px]">
-                        <h6 class="text-[2em] | lg:text-[1.7em]">PROGRAMA DE MANTENIMIENTO</h6>
-                        <br />
-                        <p class="text-[#A5A7B5] | lg:text-[.8em]">
-                            Mantenemos tu tecnología en óptimo estado con planes preventivos y
-                            correctivos que aseguran un rendimiento constante y confiable.
-                        </p>
-                    </div>
-                <!--Grid 5-->
-                    <div class="div1 bg-[#0F101E] p-10 w-[350px] h-[300px] text-[#7D3C98] border-l-4 | lg:w-[300px] | xl-w-[280px]">
-                        <h6 class="text-[2em] | lg:text-[1.7em]">EVALUACIONES</h6>
-                        <br />
-                        <p class="text-[#A5A7B5] | lg:text-[.8em]">
-                            Evaluamos el desempeño de tu entorno TI para identificar áreas de
-                            mejora y maximizar la eficiencia operativa de tu infraestructura.
-                        </p>
-                    </div>
-                <!--Grid 6-->
-                    <div class="div1 bg-[#0F101E] p-10 w-[350px] h-[300px] text-[#007BFF] border-l-4 | lg:w-[300px] | xl-w-[280px]">
-                        <h6 class="text-[2em] | lg:text-[1.7em]">TIPOLOGÍA DE TU RED</h6>
-                        <br />
-                        <p class="text-[#A5A7B5] | lg:text-[.8em]">
-                            Analizamos y optimizamos tu red, asegurando una conectividad estable
-                            y segura, adaptada a las necesidades específicas de tu negocio.
-                        </p>
-                    </div>
-                <div class="div7 w-[350px] h-[300px]  flex flex-col items-center  | lg:col-span-3 lg:w-[100%] | xl:col-span-2 xl:justify-center">
-                    <h6 class="text-[30px] text-center text-[#A5A7B5] ">
+                <div class="bg-[#0F101E] p-6 text-[#FFC300] border-l-4">
+                    <h6 class="text-2xl lg:text-xl">PROYECTOS INTERNOS</h6>
+                    <p class="text-[#A5A7B5] mt-4 lg:text-sm">
+                        Impulsamos el éxito de tu empresa con soluciones tecnológicas innovadoras, adaptadas a tus necesidades y alineadas a tus metas organizacionales.
+                    </p>
+                </div>
+                <div class="bg-[#0F101E] p-6 text-[#FF3D57] border-l-4">
+                    <h6 class="text-2xl lg:text-xl">SEGURIDAD DE SERVICIOS</h6>
+                    <p class="text-[#A5A7B5] mt-4 lg:text-sm">
+                        Protegemos tu infraestructura digital con análisis y medidas proactivas que garantizan la continuidad y seguridad de tus servicios.
+                    </p>
+                </div>
+                <div class="bg-[#0F101E] p-6 text-[#00D084] border-l-4">
+                    <h6 class="text-2xl lg:text-xl">PROGRAMA DE MANTENIMIENTO</h6>
+                    <p class="text-[#A5A7B5] mt-4 lg:text-sm">
+                        Mantenemos tu tecnología en óptimo estado con planes preventivos y correctivos que aseguran un rendimiento constante y confiable.
+                    </p>
+                </div>
+                <div class="bg-[#0F101E] p-6 text-[#7D3C98] border-l-4">
+                    <h6 class="text-2xl lg:text-xl">EVALUACIONES</h6>
+                    <p class="text-[#A5A7B5] mt-4 lg:text-sm">
+                        Evaluamos el desempeño de tu entorno TI para identificar áreas de mejora y maximizar la eficiencia operativa de tu infraestructura.
+                    </p>
+                </div>
+                <div class="bg-[#0F101E] p-6 text-[#007BFF] border-l-4">
+                    <h6 class="text-2xl lg:text-xl">TIPOLOGÍA DE TU RED</h6>
+                    <p class="text-[#A5A7B5] mt-4 lg:text-sm">
+                        Analizamos y optimizamos tu red, asegurando una conectividad estable y segura, adaptada a las necesidades específicas de tu negocio.
+                    </p>
+                </div>
+                <div class="col-span-1 lg:col-span-3 xl:col-span-2 flex flex-col items-center justify-center">
+                    <h6 class="text-xl text-center text-[#A5A7B5] mb-4">
                         Nosotros te ayudamos a resolver estas dudas y muchos más
-                      </h6>
-                      <button
-                        id="contact"
-                        class="mt-[20px] cursor-pointer transition delay-100 duration-200 ease-in-out hover:-translate-y-0 hover:scale-110 px-[20px] py-[10px] bg-[#0056D2] text-white rounded-[5px] font-bold"
-                      >
+                    </h6>
+                    <button id="contact" class="px-6 py-3 bg-[#0056D2] text-white rounded-md font-bold transition hover:scale-105">
                         Contáctanos
-                      </button>
+                    </button>
                 </div>
             </div>
         </div>
